@@ -6,7 +6,7 @@ def readme():
 
 setup(
     name='rpsgame',
-    version='1.0',
+    version='0.1',
     description='Classic game of Rock Paper and Scissors',
     url='https://github.com/mukkund1996/RPSGame',
     author='Mukkund Sunjii',
