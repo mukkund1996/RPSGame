@@ -11,7 +11,7 @@ def game_input_template(reset=True):
     value = input("How many games do you wanna play today? \n")
     if int(value) < 1:
         print("The number of games must be more than 0. Enter the value again")
-        game_input_template(reset=False)
+        value = game_input_template(reset=False)
 
     return int(value)
 
